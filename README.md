@@ -4,6 +4,14 @@ Installation steps
 
 ## Ubuntu
 
+### Install openstack
+
+```
+add-apt-repository cloud-archive:xena
+apt install nova-compute
+apt install python3-openstackclient
+```
+
 ### Dashboard
 
 First install keystone following these steps
